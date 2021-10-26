@@ -1,25 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T10:40:55.696Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Kjx5ZLN77ibGwinkmR2X" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T11:01:28.057Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="WkqWUfUH5kw9cvGURJnw" version="15.5.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="推荐歌单播放按钮">
-    <mxGraphModel dx="1658" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="1334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Viewmodel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="75" y="80" width="100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="onClick" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-15" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Qp0r34Nz9aP66fYgV8rX-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="55" y="100" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp0r34Nz9aP66fYgV8rX-3" value="loading" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Qp0r34Nz9aP66fYgV8rX-2" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="81" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="81" />
+              <mxPoint x="90" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="255" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="255" y="80" width="100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
