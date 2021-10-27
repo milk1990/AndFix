@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T11:10:11.825Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="6FC4G2HdxY0r_ZoZd2Cd" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T11:12:14.566Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="h32V2aTdnE-h65wXuU59" version="15.5.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="推荐歌单播放按钮">
-    <mxGraphModel dx="1137" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,15 @@
             <mxPoint x="135" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Qp0r34Nz9aP66fYgV8rX-13">
+          <mxGeometry x="45" y="560" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-25" value="updateProgress" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.171;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qp0r34Nz9aP66fYgV8rX-13" target="TKW9vv0dUy3avXd2fPIE-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="590" as="sourcePoint" />
+            <mxPoint x="135" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qp0r34Nz9aP66fYgV8rX-17" value="requestPlay" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.238;entryY=0.094;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Qp0r34Nz9aP66fYgV8rX-12" target="Qp0r34Nz9aP66fYgV8rX-16" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="400" y="270" as="sourcePoint" />
@@ -160,6 +169,9 @@
         <mxCell id="TKW9vv0dUy3avXd2fPIE-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Qp0r34Nz9aP66fYgV8rX-23">
           <mxGeometry x="45" y="510" width="10" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Qp0r34Nz9aP66fYgV8rX-23">
+          <mxGeometry x="45" y="590" width="10" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="TKW9vv0dUy3avXd2fPIE-2" value="savePlayInfo" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=1.014;exitY=0.311;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.5099" relative="1" as="geometry">
             <mxPoint x="392.1399999999999" y="327.53999999999996" as="sourcePoint" />
@@ -212,6 +224,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="460" y="460" as="sourcePoint" />
             <mxPoint x="780" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-21" value="return progress" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="640" as="sourcePoint" />
+            <mxPoint x="390" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
