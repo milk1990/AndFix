@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T11:12:14.566Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="h32V2aTdnE-h65wXuU59" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T11:16:10.450Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="U5VYtVW7CP-IJGcdksFQ" version="15.5.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="推荐歌单播放按钮">
     <mxGraphModel dx="1137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,21 @@
         <mxCell id="Qp0r34Nz9aP66fYgV8rX-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="50" y="160" width="10" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="50" y="480" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="60" y="516" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-29" value="updateState" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.943;exitY=0.162;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TKW9vv0dUy3avXd2fPIE-28" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.430000000000064" y="495.72" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="496" />
+              <mxPoint x="95" y="516" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="80" width="100" height="720" as="geometry" />
         </mxCell>
@@ -44,6 +59,9 @@
         </mxCell>
         <mxCell id="Qp0r34Nz9aP66fYgV8rX-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="200" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="480" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Qp0r34Nz9aP66fYgV8rX-7" value=":Model" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="469" y="80" width="100" height="720" as="geometry" />
@@ -151,6 +169,9 @@
             <mxPoint x="-35" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Qp0r34Nz9aP66fYgV8rX-20">
+          <mxGeometry x="45" y="556" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="Qp0r34Nz9aP66fYgV8rX-22" value="getSongListDetail" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.024;entryY=0.194;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Qp0r34Nz9aP66fYgV8rX-10" target="Qp0r34Nz9aP66fYgV8rX-21" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="540" y="210" as="sourcePoint" />
@@ -230,6 +251,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="640" as="sourcePoint" />
             <mxPoint x="390" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKW9vv0dUy3avXd2fPIE-26" value="return playState" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.943;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TKW9vv0dUy3avXd2fPIE-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
