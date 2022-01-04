@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T10:01:01.301Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ZGtj1V4VqbJnxQHa6qm7" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:02:31.134Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="yJ2QCa1QOBJewoJ2EQyj" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,6 +298,20 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="870" as="sourcePoint" />
             <mxPoint x="610" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3Q_NO3_-VGqsI23rNcN-53" value="CameraServiceProxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+          <mxGeometry x="987" y="340" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u3Q_NO3_-VGqsI23rNcN-54" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-53" target="u3Q_NO3_-VGqsI23rNcN-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3Q_NO3_-VGqsI23rNcN-55" value="MSP&amp;nbsp; &amp;nbsp;Binder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="u3Q_NO3_-VGqsI23rNcN-54">
+          <mxGeometry x="-0.1879" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
