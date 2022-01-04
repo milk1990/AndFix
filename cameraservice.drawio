@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T07:49:35.645Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="k0npJEwgFwxLxepy9iQt" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T07:59:30.212Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MdETAPN9rdCZe08m_cfb" version="16.1.4" type="github">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="306" y="686" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r3CdGSNLSoonVnB5vRf6-7" value="SqliteHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="406" y="686" width="80" height="35" as="geometry" />
+          <mxGeometry x="411" y="686" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r3CdGSNLSoonVnB5vRf6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="540" width="560" height="90" as="geometry" />
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="r3CdGSNLSoonVnB5vRf6-12" value="EnthCam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="376.75" y="565" width="110.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r3CdGSNLSoonVnB5vRf6-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r3CdGSNLSoonVnB5vRf6-14" value="CameraServiceImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="440" width="129" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
