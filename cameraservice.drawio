@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T08:00:11.031Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Tu78w1mp75rlAFouQ7h6" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T08:01:15.390Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Zd-JptsvS2NhC4KH5M_a" version="16.1.4" type="github">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="r3CdGSNLSoonVnB5vRf6-15" value="CameraServiceClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="440" width="129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r3CdGSNLSoonVnB5vRf6-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3CdGSNLSoonVnB5vRf6-9" target="r3CdGSNLSoonVnB5vRf6-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3CdGSNLSoonVnB5vRf6-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r3CdGSNLSoonVnB5vRf6-9" target="r3CdGSNLSoonVnB5vRf6-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
