@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T10:07:55.487Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="0jsfTZJzWo4wFEzaV_ZK" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-04T10:08:42.889Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="yQXD7Xd6LleiRCJT4MdD" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,8 +300,8 @@
             <mxPoint x="765" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u3Q_NO3_-VGqsI23rNcN-53" value="CameraServiceProxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="1141" y="460" width="156" height="60" as="geometry" />
+        <mxCell id="u3Q_NO3_-VGqsI23rNcN-53" value="CameraServiceProxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+          <mxGeometry x="1141" y="400" width="156" height="120" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-54" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-53" target="u3Q_NO3_-VGqsI23rNcN-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -313,6 +313,9 @@
           <mxGeometry x="-0.1879" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lzBk6uFQj6bkeU6I54EV-0" value="DVRCamProxy" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+          <mxGeometry x="1170" y="440" width="91" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
