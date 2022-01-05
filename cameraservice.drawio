@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T02:11:58.041Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="iRceiaR8hlQ-V2HatlN9" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T02:12:27.697Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_7BYYcc5W7ZkL4a2Vzi1" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
           <mxGeometry x="210" y="890" width="500" height="100" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-4" value="LoopRecordComsumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="368" y="1024.45" width="180" height="60" as="geometry" />
+          <mxGeometry x="366" y="1024.45" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-5" value="EncodeQueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="907.75" y="884.95" width="120" height="60" as="geometry" />
@@ -148,7 +148,7 @@
             <Array as="points">
               <mxPoint x="1067" y="915.45" />
               <mxPoint x="1067" y="1126.45" />
-              <mxPoint x="458" y="1126" />
+              <mxPoint x="456" y="1126" />
             </Array>
           </mxGeometry>
         </mxCell>
