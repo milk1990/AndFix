@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T03:16:03.377Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qQNTyj7QlxZ-BWwa1ZMv" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T03:16:22.866Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="wNekrNktQx_zAFkxRbcG" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,13 +277,13 @@
         <mxCell id="lzBk6uFQj6bkeU6I54EV-12" value="Scope" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontStyle=3" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="130" y="142" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lzBk6uFQj6bkeU6I54EV-13" value="&lt;b&gt;AisServer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=center;verticalAlign=top;fillColor=#CCE5FF;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+        <mxCell id="lzBk6uFQj6bkeU6I54EV-13" value="&lt;b&gt;AOSP&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=center;verticalAlign=top;fillColor=#CCE5FF;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="317" y="187.69" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-14" value="&lt;b&gt;HMI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=center;verticalAlign=top;fillColor=#fff2cc;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="188" y="187.69" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lzBk6uFQj6bkeU6I54EV-15" value="&lt;b&gt;CameraService&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=center;verticalAlign=top;fillColor=#E5CCFF;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+        <mxCell id="lzBk6uFQj6bkeU6I54EV-15" value="&lt;b&gt;MW&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=center;verticalAlign=top;fillColor=#E5CCFF;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="448" y="187.69" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;labelBorderColor=none;fontColor=#000000;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
