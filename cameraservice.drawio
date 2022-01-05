@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T02:53:16.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1279AzZ2NNRY15KvBBwz" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T02:54:35.590Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LUbw_0Uq_fLfGYn7QSkE" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,6 +348,9 @@
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-39" value="getCameraWatermarkState" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF2CC;fontColor=#000000;rounded=0;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="805" y="338" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lzBk6uFQj6bkeU6I54EV-40" value="init" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+          <mxGeometry x="160" y="512" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
