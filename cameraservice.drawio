@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T05:27:57.469Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eIFViUEUIGcoWBdSsltb" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T05:28:43.615Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9Tl0gaphO2yGeAzN46zI" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
           <mxGeometry x="610" y="619" width="360" height="101.18" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-2" value="LoopRecordImpl" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="390" y="648.28" width="110" height="61.45" as="geometry" />
+          <mxGeometry x="417" y="648.28" width="110" height="61.45" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-7" value="Watermark" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="642" y="649.73" width="90" height="60" as="geometry" />
@@ -130,7 +130,7 @@
           <mxGeometry x="190" y="649.73" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-13" value="FileProvider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="290" y="649.73" width="90" height="60" as="geometry" />
+          <mxGeometry x="299" y="649.73" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-14" value="CamHal" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="150" y="732.18" width="830" height="87.82" as="geometry" />
@@ -151,16 +151,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-28" value="HHTCameraServiceImpl" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="150" y="519" width="510" height="84" as="geometry" />
+          <mxGeometry x="150" y="519" width="430" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="u3Q_NO3_-VGqsI23rNcN-29" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#0000CC;startArrow=classic;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-2" target="u3Q_NO3_-VGqsI23rNcN-28">
+        <mxCell id="u3Q_NO3_-VGqsI23rNcN-29" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#0000CC;startArrow=classic;startFill=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-2" target="u3Q_NO3_-VGqsI23rNcN-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="624" as="sourcePoint" />
             <mxPoint x="270" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-51" value="HHTCameraServiceStub" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="690" y="519" width="277" height="84" as="geometry" />
+          <mxGeometry x="610" y="519" width="357" height="84" as="geometry" />
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-0" value="CameraDevice" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=center;verticalAlign=middle;fillColor=#FFF2CC;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="152.25" y="340.5" width="317.75" height="51.5" as="geometry" />
