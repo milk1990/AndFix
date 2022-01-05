@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T05:18:25.681Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="5mCjTRLvKcFbzH8xCzFT" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T05:19:06.463Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CM9Atz8JMvUFBYNo3t18" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,10 +103,10 @@
           <mxGeometry x="690" y="590.45" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-2" value="LoopRecordImpl" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="160" y="624" width="490" height="66" as="geometry" />
+          <mxGeometry x="160" y="633" width="490" height="66" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-4" value="LoopRecordComsumer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="306" y="758.45" width="180" height="60" as="geometry" />
+          <mxGeometry x="306" y="737.45" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-7" value="Watermark" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="768.5" y="758.45" width="120" height="60" as="geometry" />
@@ -118,10 +118,10 @@
           <mxGeometry x="768.5" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-12" value="AisProvider" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="160" y="758.45" width="140" height="60" as="geometry" />
+          <mxGeometry x="160" y="737.45" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-13" value="FileProvider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="500" y="758.45" width="150" height="60" as="geometry" />
+          <mxGeometry x="500" y="737.45" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-14" value="CamHal" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="150" y="861.45" width="830" height="138.55" as="geometry" />
@@ -139,24 +139,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="896.75" y="690.95" as="sourcePoint" />
             <mxPoint x="1119.25" y="610.95" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u3Q_NO3_-VGqsI23rNcN-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeColor=#0000CC;entryX=0.143;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-12" target="u3Q_NO3_-VGqsI23rNcN-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="910.45" as="sourcePoint" />
-            <mxPoint x="230" y="721" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u3Q_NO3_-VGqsI23rNcN-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeColor=#0000CC;entryX=0.48;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-4" target="u3Q_NO3_-VGqsI23rNcN-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="237" y="733.45" as="sourcePoint" />
-            <mxPoint x="398" y="724" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u3Q_NO3_-VGqsI23rNcN-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeColor=#0000CC;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="u3Q_NO3_-VGqsI23rNcN-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="910.45" as="sourcePoint" />
-            <mxPoint x="575" y="731" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-28" value="HHTCameraServiceImpl" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
