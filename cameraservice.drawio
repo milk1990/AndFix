@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:32:34.207Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Zg1xHDPdYWTIz2mWA1lX" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:35:07.078Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VxZlgR-392ihfhK1eyhn" version="16.1.4" type="github" pages="2">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,10 +97,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-19" value="HHTCameraService" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="140.63" y="690" width="559.37" height="130" as="geometry" />
+          <mxGeometry x="144.25" y="440" width="235.75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-20" value="&lt;span style=&quot;&quot;&gt;CameraServiceManager&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#FFF2CC;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="137" y="284" width="613" height="95" as="geometry" />
+          <mxGeometry x="137" y="320" width="563" height="59" as="geometry" />
         </mxCell>
         <mxCell id="u3Q_NO3_-VGqsI23rNcN-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" target="u3Q_NO3_-VGqsI23rNcN-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -169,7 +169,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-24" value="AisServer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
-          <mxGeometry x="140.63" y="870" width="559.37" height="55" as="geometry" />
+          <mxGeometry x="143.25" y="610" width="241.19" height="55" as="geometry" />
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-25" value="Binder" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;strokeColor=#FF0000;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u3Q_NO3_-VGqsI23rNcN-1" source="lzBk6uFQj6bkeU6I54EV-19" target="lzBk6uFQj6bkeU6I54EV-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -182,6 +182,9 @@
         </mxCell>
         <mxCell id="lzBk6uFQj6bkeU6I54EV-88" value="Java" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
           <mxGeometry x="77" y="349" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lzBk6uFQj6bkeU6I54EV-89" value="HHTCameraService" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="u3Q_NO3_-VGqsI23rNcN-1">
+          <mxGeometry x="412" y="440" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
