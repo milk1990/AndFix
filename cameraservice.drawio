@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T07:55:17.832Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xjtKLSAmjDerSuK0G_g6" version="16.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-12T07:56:18.934Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qYRMkkTtRqH9nAf79YG2" version="16.1.4" type="github" pages="4">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J5Hl4py3Em00BJBL3agA" name="时序图">
-    <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-0" />
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-1" parent="BYKOFcL1Jou6iIPMcGQD-0" />
@@ -377,7 +377,7 @@
           <mxGeometry x="190" y="20" width="120" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-3">
-          <mxGeometry x="55" y="90" width="10" height="80" as="geometry" />
+          <mxGeometry x="55" y="91" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-4" value="RecordConsummer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-1">
           <mxGeometry x="354" y="20" width="120" height="1130" as="geometry" />
@@ -397,9 +397,9 @@
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-9" value="FileProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-1">
           <mxGeometry x="1150" y="20" width="110" height="1130" as="geometry" />
         </mxCell>
-        <mxCell id="BYKOFcL1Jou6iIPMcGQD-13" value="initialize" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.1;exitY=0.275;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-12" parent="BYKOFcL1Jou6iIPMcGQD-1" source="BYKOFcL1Jou6iIPMcGQD-10">
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-13" value="initialize" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.093;exitY=0.285;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-12" parent="BYKOFcL1Jou6iIPMcGQD-1" source="BYKOFcL1Jou6iIPMcGQD-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="160" as="sourcePoint" />
+            <mxPoint x="110" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
