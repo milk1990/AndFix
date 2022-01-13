@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T02:22:15.810Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SkoBqiADjJe5o3BbVjtZ" version="16.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-13T02:39:30.497Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="raVdDjl-x-0SYkoL8fBL" version="16.1.4" type="github" pages="4">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J5Hl4py3Em00BJBL3agA" name="时序图">
-    <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-0" />
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-1" parent="BYKOFcL1Jou6iIPMcGQD-0" />
@@ -448,17 +448,34 @@
           <mxGeometry x="55" y="380" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-4">
-          <mxGeometry x="55" y="1230" width="10" height="130" as="geometry" />
+          <mxGeometry x="55" y="1230" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-4">
           <mxGeometry x="65" y="1280" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BYKOFcL1Jou6iIPMcGQD-102" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-101" parent="BYKOFcL1Jou6iIPMcGQD-4">
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-102" value="MediaMuxer::writeSampleData" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-101" parent="BYKOFcL1Jou6iIPMcGQD-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="1260" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="100" y="1260" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-4">
+          <mxGeometry x="65" y="1330" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-104" value="handleRecordEnd" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-103" parent="BYKOFcL1Jou6iIPMcGQD-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="71" y="1310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="101" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-105" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="BYKOFcL1Jou6iIPMcGQD-4" target="BYKOFcL1Jou6iIPMcGQD-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="77" y="1370" as="sourcePoint" />
+            <mxPoint x="157" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-5" value="EncodeQueue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-1">
@@ -493,10 +510,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-5">
-          <mxGeometry x="55" y="770" width="10" height="590" as="geometry" />
+          <mxGeometry x="55" y="770" width="10" height="670" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-5">
-          <mxGeometry x="65" y="800" width="10" height="560" as="geometry" />
+          <mxGeometry x="65" y="800" width="10" height="610" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-5">
           <mxGeometry x="75" y="1190" width="10" height="20" as="geometry" />
@@ -600,6 +617,9 @@
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-9" value="FileProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-1">
           <mxGeometry x="1105" y="20" width="110" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="BYKOFcL1Jou6iIPMcGQD-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-9">
+          <mxGeometry x="50" y="1370" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-13" value="initialize" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.3;exitY=0.134;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="BYKOFcL1Jou6iIPMcGQD-12" parent="BYKOFcL1Jou6iIPMcGQD-1" source="BYKOFcL1Jou6iIPMcGQD-10">
           <mxGeometry relative="1" as="geometry">
