@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T11:16:06.591Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kpyyGFgMFIMB0KNJ_XtS" version="16.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-13T11:17:08.050Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pYikpKA471zV6yLRpGbF" version="16.1.4" type="github" pages="5">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J5Hl4py3Em00BJBL3agA" name="时序图 - startRecord">
-    <mxGraphModel dx="2817" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2922" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-0" />
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-1" parent="BYKOFcL1Jou6iIPMcGQD-0" />
@@ -406,24 +406,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rAB2zlsufYzK-aEVU8Dm-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-2">
-          <mxGeometry x="106" y="561" width="10" height="70" as="geometry" />
+          <mxGeometry x="106" y="561" width="10" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="rAB2zlsufYzK-aEVU8Dm-32" value="checkRecordStatus" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="rAB2zlsufYzK-aEVU8Dm-31" parent="BYKOFcL1Jou6iIPMcGQD-2">
+        <mxCell id="rAB2zlsufYzK-aEVU8Dm-32" value="startDaemonThread" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="rAB2zlsufYzK-aEVU8Dm-31" parent="BYKOFcL1Jou6iIPMcGQD-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="111" y="541" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="141" y="541" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rAB2zlsufYzK-aEVU8Dm-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-2">
-          <mxGeometry x="116" y="601" width="10" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rAB2zlsufYzK-aEVU8Dm-34" value="submitStartRecordTask" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="rAB2zlsufYzK-aEVU8Dm-33" parent="BYKOFcL1Jou6iIPMcGQD-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="581" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="151" y="581" />
             </Array>
           </mxGeometry>
         </mxCell>
