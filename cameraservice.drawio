@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T07:08:42.149Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VEjpg5rpb0tUUTkttm8F" version="16.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-14T07:12:03.684Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nuEVD1optcrstzMe_LxF" version="16.1.4" type="github" pages="6">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="J5Hl4py3Em00BJBL3agA" name="时序图 - startRecord">
+  <diagram id="J5Hl4py3Em00BJBL3agA" name="时序图 - startLoopRecord">
     <mxGraphModel dx="3315" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BYKOFcL1Jou6iIPMcGQD-0" />
@@ -1178,6 +1178,41 @@
               <mxPoint x="798" y="189" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dKHKhJcdYU04x7bsy-OU" name="时序图 - stopLoopRecord">
+    <mxGraphModel dx="3168" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-0" />
+        <mxCell id="X5hk9sLQ603TWVojwf9_-1" parent="X5hk9sLQ603TWVojwf9_-0" />
+        <mxCell id="X5hk9sLQ603TWVojwf9_-2" value="LoopRecordProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="187" y="20" width="117" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-7" value="LoopRecordImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="-352" y="20" width="200" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-21" value="LoopRecordConsumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="420" y="20" width="147" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-29" value="EncodeQueue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="682" y="20" width="120" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-39" value="GLRGBToSurface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="914" y="20" width="120" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-43" value="StorageManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="1104" y="20" width="110" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-70" value="SqliteHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="1474" y="20" width="110" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-81" value="LoopRecordDaemon" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="-60" y="20" width="130" height="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="X5hk9sLQ603TWVojwf9_-87" value="LocalDataManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
+          <mxGeometry x="1290" y="20" width="110" height="1700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
