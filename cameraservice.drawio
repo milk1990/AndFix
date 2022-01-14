@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T03:01:27.533Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4hGM1Ms5fdyTFni_hn-x" version="16.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-14T03:10:22.939Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FAyd8m9WzCZxwpgT4olz" version="16.1.4" type="github" pages="5">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,14 +723,6 @@
         </mxCell>
         <mxCell id="rAB2zlsufYzK-aEVU8Dm-35" value="LoopRecordDaemon" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BYKOFcL1Jou6iIPMcGQD-1">
           <mxGeometry x="-60" y="20" width="130" height="1700" as="geometry" />
-        </mxCell>
-        <mxCell id="JEyIeId9xNEcXdOgSt4y-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;" vertex="1" parent="rAB2zlsufYzK-aEVU8Dm-35">
-          <mxGeometry x="60" y="670" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="JEyIeId9xNEcXdOgSt4y-6" value="Thread::run" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="JEyIeId9xNEcXdOgSt4y-5" parent="rAB2zlsufYzK-aEVU8Dm-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="670" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="R4COS0HhnvbPhP6KUrv8-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.2;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="BYKOFcL1Jou6iIPMcGQD-1" source="BYKOFcL1Jou6iIPMcGQD-33">
           <mxGeometry relative="1" as="geometry">
