@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T07:19:36.280Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NFPwJUeHWsBI5Gj30Oli" version="16.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-14T07:22:41.745Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="H6tu6MLXKe8qIoXG9QY4" version="16.1.4" type="github" pages="6">
   <diagram id="tb1Oh87HVTWQbizAyNp_" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1183,7 +1183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKHKhJcdYU04x7bsy-OU" name="时序图 - stopLoopRecord">
-    <mxGraphModel dx="3168" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2817" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="X5hk9sLQ603TWVojwf9_-0" />
         <mxCell id="X5hk9sLQ603TWVojwf9_-1" parent="X5hk9sLQ603TWVojwf9_-0" />
@@ -1215,6 +1215,9 @@
         <mxCell id="X5hk9sLQ603TWVojwf9_-21" value="LoopRecordConsumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
           <mxGeometry x="420" y="20" width="147" height="1700" as="geometry" />
         </mxCell>
+        <mxCell id="hNgbqcU7V1U8Qi691RgV-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;fontColor=#000000;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-21">
+          <mxGeometry x="68.5" y="280" width="10" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="X5hk9sLQ603TWVojwf9_-29" value="EncodeQueue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="X5hk9sLQ603TWVojwf9_-1">
           <mxGeometry x="682" y="20" width="120" height="1700" as="geometry" />
         </mxCell>
@@ -1244,6 +1247,16 @@
         <mxCell id="meaGZ9KaGjQepuI5LAAS-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=#000000;" edge="1" source="meaGZ9KaGjQepuI5LAAS-0" parent="X5hk9sLQ603TWVojwf9_-1" target="loJdidkDl-1GZUk6AUqR-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNgbqcU7V1U8Qi691RgV-4" value="stopLoopRecord" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=#000000;" edge="1" target="hNgbqcU7V1U8Qi691RgV-3" parent="X5hk9sLQ603TWVojwf9_-1" source="loJdidkDl-1GZUk6AUqR-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNgbqcU7V1U8Qi691RgV-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=#000000;" edge="1" source="hNgbqcU7V1U8Qi691RgV-3" parent="X5hk9sLQ603TWVojwf9_-1" target="X5hk9sLQ603TWVojwf9_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
