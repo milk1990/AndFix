@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T08:32:22.551Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="_SVIzy23mCRGzjRBbk4J" version="16.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-16T08:45:32.939Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5LkrQRlZmsNPwlJsjAkf" version="16.2.7" type="github" pages="2">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -84,6 +84,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="559" as="sourcePoint" />
             <mxPoint x="480" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYaKR1834uLImdJKJ_Rj-1" value="another buffer is queued&lt;br&gt;&amp;nbsp;in asynchronous mode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;labelBackgroundColor=#E6D0DE;" vertex="1" connectable="0" parent="7YqIVf8YjmdOn8GUHnO3-15">
+          <mxGeometry x="0.28" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7YqIVf8YjmdOn8GUHnO3-24" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;" vertex="1" parent="1">
