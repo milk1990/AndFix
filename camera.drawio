@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T08:12:08.213Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="OxBGBObx5JK5JW8rbVNK" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T08:12:35.952Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="NQvOqQdYixo5RPvZkkvE" version="16.2.7" type="github">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1137" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
           <mxGeometry x="520" y="120" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7YqIVf8YjmdOn8GUHnO3-35" value="BufferSlot" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="175" y="240" width="90" height="150" as="geometry" />
+          <mxGeometry x="175" y="240" width="90" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7YqIVf8YjmdOn8GUHnO3-37" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontColor=#0000CC;strokeColor=#A8201A;fillColor=#FAE5C7;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="7YqIVf8YjmdOn8GUHnO3-26" target="7YqIVf8YjmdOn8GUHnO3-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -133,6 +133,9 @@
         </mxCell>
         <mxCell id="7YqIVf8YjmdOn8GUHnO3-39" value="Fence" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="310" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-40" value="Fence" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="183" y="340" width="75" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
