@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T07:28:47.358Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.7" etag="H3H-6NjQIRnT3i5vJgcn" type="github"><diagram id="oI5USlNPpPssLxzci8PM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T07:34:28.125Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uF0Z6B2gQY9yNp4OTZ-e" version="16.2.7" type="github">
+  <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
+    <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-2" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-3" value="BufferQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-4" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-5" value="Free" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-6" value="Dequeued" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-7" value="Queued" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-8" value="Acquired" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YqIVf8YjmdOn8GUHnO3-6" target="7YqIVf8YjmdOn8GUHnO3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="640" as="sourcePoint" />
+            <mxPoint x="470" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YqIVf8YjmdOn8GUHnO3-5" target="7YqIVf8YjmdOn8GUHnO3-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="680" as="sourcePoint" />
+            <mxPoint x="430.0000000000002" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
