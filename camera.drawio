@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T11:01:19.226Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="VBNyLHyps9PoFtiFSwix" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-16T11:02:16.169Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uvn4t-2zpSnuWqt7JJOf" version="16.2.7" type="github" pages="3">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -213,7 +213,12 @@
         </mxCell>
         <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-13" value="onFrameAvailable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-12">
           <mxGeometry x="0.1679" y="1" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
+            <mxPoint x="20" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-17" value="aquireBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-12">
+          <mxGeometry x="0.3775" relative="1" as="geometry">
+            <mxPoint x="31" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-14" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontSize=12;fontColor=#000000;strokeColor=#A50040;fillColor=#d80073;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="hQXPCO9Q7t2bqCi_6Dd8-1" source="TWZshhr7Zp6Vv75Jk5uZ-11" target="TWZshhr7Zp6Vv75Jk5uZ-6">
