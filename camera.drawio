@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:09:13.943Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1EuTt5P7Y1varEwp5qzZ" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:09:30.318Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="GanteDk3AiEunI6dq9If" version="16.2.7" type="github" pages="3">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -174,10 +174,10 @@
           <mxGeometry x="200" y="560" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wo20PUhy_eFWjfeTV-ys-7" value="Record" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#E6D0DE;sketch=0;fontSize=12;fontColor=#000000;strokeColor=#0F8B8D;fillColor=#FAE5C7;" vertex="1" parent="hNO-KK9G9V2Lgm38JD-t-1">
-          <mxGeometry x="290" y="560" width="70" height="40" as="geometry" />
+          <mxGeometry x="285" y="560" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wo20PUhy_eFWjfeTV-ys-8" value="Upload" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#E6D0DE;sketch=0;fontSize=12;fontColor=#000000;strokeColor=#0F8B8D;fillColor=#FAE5C7;" vertex="1" parent="hNO-KK9G9V2Lgm38JD-t-1">
-          <mxGeometry x="380" y="560" width="60" height="40" as="geometry" />
+          <mxGeometry x="361" y="560" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
