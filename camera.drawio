@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T07:56:01.831Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="_FpRSZmGl8Y85qDcrlmI" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T08:06:19.421Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="X1NBWxQi6kuyiXZwK2d9" version="16.2.7" type="github">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7YqIVf8YjmdOn8GUHnO3-2" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontColor=#143642;dashed=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;" vertex="1" parent="1">
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-2" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontColor=#0000CC;dashed=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;" vertex="1" parent="1">
           <mxGeometry x="160" y="600" width="100" height="339" as="geometry" />
         </mxCell>
-        <mxCell id="7YqIVf8YjmdOn8GUHnO3-3" value="BufferQueue" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontColor=#143642;dashed=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;" vertex="1" parent="1">
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-3" value="BufferQueue" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontColor=#0000CC;dashed=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;" vertex="1" parent="1">
           <mxGeometry x="360" y="600" width="100" height="339" as="geometry" />
         </mxCell>
-        <mxCell id="7YqIVf8YjmdOn8GUHnO3-4" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FAE5C7;fontColor=#143642;dashed=1;strokeColor=#0F8B8D;" vertex="1" parent="1">
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-4" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#FAE5C7;fontColor=#0000CC;dashed=1;strokeColor=#0F8B8D;" vertex="1" parent="1">
           <mxGeometry x="560" y="600" width="100" height="339" as="geometry" />
         </mxCell>
         <mxCell id="7YqIVf8YjmdOn8GUHnO3-5" value="Free" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
