@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T09:15:42.538Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ch6gGU_3MaY8z8ujeJjd" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-17T09:16:03.673Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="iGh-qD6phqfxplothDeg" version="16.2.7" type="github" pages="3">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -149,9 +149,6 @@
         </mxCell>
         <mxCell id="g9q9xVbGNj9FgWaIa6sJ-0" value="AisDevice" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=12;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;verticalAlign=top;" vertex="1" parent="hQXPCO9Q7t2bqCi_6Dd8-1">
           <mxGeometry x="80" y="240" width="120" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="g9q9xVbGNj9FgWaIa6sJ-1" value="CameraImpl" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=12;fontColor=#0000CC;strokeColor=#0F8B8D;fillColor=#FAE5C7;verticalAlign=top;" vertex="1" parent="hQXPCO9Q7t2bqCi_6Dd8-1">
-          <mxGeometry x="80" y="70" width="1100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-0" value="BufferQueue" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#E6D0DE;sketch=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FAE5C7;" vertex="1" parent="hQXPCO9Q7t2bqCi_6Dd8-1">
           <mxGeometry x="288" y="290" width="82" height="30" as="geometry" />
