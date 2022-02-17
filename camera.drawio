@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T09:13:43.717Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="WQLTcctlx_IeIsVD3KUT" version="16.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-17T09:14:24.446Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="i1Y11jFsbdmfVn3I-gWj" version="16.2.7" type="github" pages="3">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1658" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -243,9 +243,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-15" value="queueBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#0000CC;rotation=-25;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-14">
+        <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-15" value="queueBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#0000CC;rotation=-40;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-14">
           <mxGeometry x="-0.0714" y="-1" relative="1" as="geometry">
-            <mxPoint x="-45" y="30" as="offset" />
+            <mxPoint x="-53" y="54" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-18" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontSize=12;fontColor=#97D077;strokeColor=#FF1B0A;fillColor=#b0e3e6;curved=0;dashed=1;" edge="1" parent="hQXPCO9Q7t2bqCi_6Dd8-1">
@@ -321,7 +321,7 @@
             <mxPoint x="700" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-36" value="swapBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#0000CC;rotation=-30;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-34">
+        <mxCell id="TWZshhr7Zp6Vv75Jk5uZ-36" value="swapBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#0000CC;rotation=-35;" vertex="1" connectable="0" parent="TWZshhr7Zp6Vv75Jk5uZ-34">
           <mxGeometry x="-0.5409" relative="1" as="geometry">
             <mxPoint y="12" as="offset" />
           </mxGeometry>
