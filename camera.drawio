@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T03:23:56.893Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Sxl8mQ9tgRg8VdEwIJe4" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-18T03:24:50.291Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="e9Cblo7LoicrpHzjZTsm" version="16.5.6" type="github" pages="3">
   <diagram id="oI5USlNPpPssLxzci8PM" name="BufferQueue">
     <mxGraphModel dx="1372" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             <mxPoint x="504" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7YqIVf8YjmdOn8GUHnO3-17" value="cancelBuffer |&amp;nbsp; detachBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;labelBackgroundColor=#DAD2D8;fontColor=#143642;" parent="7YqIVf8YjmdOn8GUHnO3-9" vertex="1" connectable="0">
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-17" value="cancelBuffer |&amp;nbsp; detachBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;labelBackgroundColor=#DAD2D8;fontColor=#0000CC;" parent="7YqIVf8YjmdOn8GUHnO3-9" vertex="1" connectable="0">
           <mxGeometry x="0.2104" y="-1" relative="1" as="geometry">
             <mxPoint x="-14" y="-4" as="offset" />
           </mxGeometry>
@@ -75,7 +75,7 @@
             <mxPoint x="504" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7YqIVf8YjmdOn8GUHnO3-20" value="releaseBuffer | detachBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;labelBackgroundColor=#DAD2D8;fontColor=#143642;" parent="7YqIVf8YjmdOn8GUHnO3-14" vertex="1" connectable="0">
+        <mxCell id="7YqIVf8YjmdOn8GUHnO3-20" value="releaseBuffer | detachBuffer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;labelBackgroundColor=#DAD2D8;fontColor=#0000CC;" parent="7YqIVf8YjmdOn8GUHnO3-14" vertex="1" connectable="0">
           <mxGeometry x="-0.1566" y="-1" relative="1" as="geometry">
             <mxPoint x="-2" y="-13" as="offset" />
           </mxGeometry>
