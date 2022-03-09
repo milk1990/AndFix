@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T05:56:12.540Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jQkL77PwQW-oI9jT9L8J" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T05:58:22.992Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="E3_rFMn949oXO4zTDk67" version="16.6.5" type="github">
   <diagram id="JP61w-WGnyM7oNZN8HDf" name="Page-1">
     <mxGraphModel dx="1990" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,9 +17,9 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6c_Mydezwi8KyOcqcPOu-5" value="ais_engine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="480" height="450" as="geometry" />
+          <mxGeometry x="520" y="440" width="480" height="502" as="geometry" />
         </mxCell>
-        <mxCell id="6c_Mydezwi8KyOcqcPOu-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
+        <mxCell id="6c_Mydezwi8KyOcqcPOu-6" value="- Initialize(qcarcam_init_t* pInitParams): CameraResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
           <mxGeometry y="26" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6c_Mydezwi8KyOcqcPOu-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
@@ -69,6 +69,12 @@
         </mxCell>
         <mxCell id="6c_Mydezwi8KyOcqcPOu-102" value="+ ais_release_frame(qcarcam_hndl_t hndl, unsigned int idx): CameraResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
           <mxGeometry y="424" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6c_Mydezwi8KyOcqcPOu-103" value="+ ais_release_frame(qcarcam_hndl_t hndl, unsigned int idx): CameraResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
+          <mxGeometry y="450" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6c_Mydezwi8KyOcqcPOu-104" value="+ ais_release_frame(qcarcam_hndl_t hndl, unsigned int idx): CameraResult" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="6c_Mydezwi8KyOcqcPOu-5">
+          <mxGeometry y="476" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6c_Mydezwi8KyOcqcPOu-9" value="CameraDeviceManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="840" y="240" width="160" height="86" as="geometry" />
