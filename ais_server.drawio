@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T06:02:06.211Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="MpTUh82nT2EpWQ80z4wW" version="16.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T06:03:44.941Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HZdFKHk1zawfswjz_w2m" version="16.6.5" type="github" pages="2">
   <diagram id="JP61w-WGnyM7oNZN8HDf" name="ais_server">
     <mxGraphModel dx="3062" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -860,6 +860,12 @@
             <mxPoint x="867.84" y="482.20000000000005" as="sourcePoint" />
             <mxPoint x="1480" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QA5NOfO4A1WjeHS8FKV--13" value="Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#011042;" vertex="1" parent="sZHcmntQWYc9O0PklgLa-1">
+          <mxGeometry x="1410" y="447" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QA5NOfO4A1WjeHS8FKV--14" value="Natvie Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#011042;" vertex="1" parent="sZHcmntQWYc9O0PklgLa-1">
+          <mxGeometry x="1410" y="477" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
