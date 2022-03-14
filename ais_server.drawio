@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T07:13:52.640Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UJxMEOPRdKI8v0OFwM1U" version="16.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-14T07:15:57.096Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="edHQOnEd89OHtAhqzNx6" version="16.6.5" type="github" pages="3">
   <diagram id="JP61w-WGnyM7oNZN8HDf" name="ais_server">
     <mxGraphModel dx="3062" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1036,6 +1036,12 @@
           <mxGeometry x="-0.2044" y="1" relative="1" as="geometry">
             <mxPoint x="6" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NLkNHiYZ_vxR_BzFxQ_D-21" value="ais_dmabuffer" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="sZHcmntQWYc9O0PklgLa-1">
+          <mxGeometry x="1448" y="818" width="97.84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLkNHiYZ_vxR_BzFxQ_D-22" value="ais_v4l2_util" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="sZHcmntQWYc9O0PklgLa-1">
+          <mxGeometry x="1448" y="854" width="97.84" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
